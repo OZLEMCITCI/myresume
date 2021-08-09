@@ -25,7 +25,9 @@ function App() {
           
           <Router>
             <Header />
-            <Switch>
+
+            <div className="main-content container_shadow">
+              <Switch>
             <Route path="/portfolio">
                <Portfolio />
             </Route>
@@ -35,6 +37,8 @@ function App() {
             </Router>
 
             </Switch>
+            </div>
+             
             
            
           </Router>
