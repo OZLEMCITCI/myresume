@@ -34,6 +34,10 @@
     margin-bottom: 30px !important; 
 }
 
+.mb_20{
+    margin-bottom: 20px !important; 
+}
+
 
 
 @media(max-width: 991px){

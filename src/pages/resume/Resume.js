@@ -18,6 +18,7 @@ import TimelineContent from '@material-ui/lab/TimelineContent'
 
 
 const Resume = () => {
+
     return (
         < >
             
@@ -145,15 +146,18 @@ const Resume = () => {
                 
             </Grid>
 
-            {/*Contact*/}            
-            <Grid container spacing={6} className="section pt_45 pb_45">
-                 {/*Conatct form */}
+            {/*Contact*/}
+            <div id="contactUs">
+            <Grid container spacing={6} className="section pt_45 pb_45" >
+                {/*Conatct form */}
+                
                 <Grid item xs={12} lg={7}>
                     <Grid container >
                         <Grid item className="section_title mb_30" >
                     <span></span>
                     <h6 className="section_title_text"> Contact Form</h6>   
-                        </Grid>
+                            </Grid>
+                        
                         <Grid item xs={12}>
                             <Grid container spacing={3} >
                                 <Grid item xs={12} sm={6}>
@@ -169,10 +173,11 @@ const Resume = () => {
                                 </Grid>
 
                                 <Grid item xs={12} >
-                                 <MyButton text="Submit"/>                             
+                                 <MyButton text="Submit" type="submit"/>                             
                                 </Grid>
-                          </Grid>
+                            </Grid>
                         </Grid>
+                        
                 </Grid>
     
                 </Grid>
@@ -215,7 +220,9 @@ const Resume = () => {
                        </Grid>
                     </Grid>
                </Grid>  
-            </Grid>            
+                </Grid>
+                </div>
+                
         
         
         </>

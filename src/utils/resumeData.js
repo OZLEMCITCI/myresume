@@ -1,13 +1,16 @@
 import Linkedin from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import WebOutlined from '@material-ui/icons/WebOutlined';
+import YouTube from "@material-ui/icons/YouTube"
+import Language from "@material-ui/icons/Language"
+import Img from "../assets/images/bg.jpg"
 //import profileImg from "../assets/images/displayImg.JPG"
 
 export default {
-    name: "Jasmine O. Citci",
-    title: "Software Engineer",
+    Name: "Jasmine O. Citci",
+    Title: "Software Engineer",
     birthday: "28th December, 1988",
-    email: "ozlmctc@gmail.com",
+    Email: "ozlmctc@gmail.com",
     //image:"../assets/images/displayImg.JPG",
 
     address: "San Antoni,texas",
@@ -15,7 +18,7 @@ export default {
     socials: {
         Linkedin: {
             link: "https://www.linkedin.com/in/ozlem-citci-548061203/",
-            text: "OzlemCitciLikedin",
+            text: "O. Citci Linkedin",
             Icon: <Linkedin />
         },
 
@@ -32,20 +35,21 @@ export default {
     
     experiences: [
         {
-            title: "Work 1",
-            date: "2021",
+            title: "Entry Level Software Developer Engineer at GMIBank",
+            date: "January,2021 ~ Present",
             description: "Full-stack developer utilizing technologies such as ReactJS, Python and Firebase for web applications on a daily basis.  • Building stable, maintainable and testable codebases using ReactJS • Creating new features and functionalities on the web applications • Writing tests, performing bug fixes and code reviews."
         },
 
         {
-            title: "Work 3",
-            date: "2021",
-            description: "Full-stack developer utilizing technologies such as ReactJS, Python and Firebase for web applications on a daily basis.  • Building stable, maintainable and testable codebases using ReactJS • Creating new features and functionalities on the web applications • Writing tests, performing bug fixes and code reviews."
+            title: "Software Engineer Intern at GMIBank ",
+            date: "September, 2020 - January,2021 ",
+            description: " As a Software intern I mainly worked back-end of the project with an assigned mentor. We used Java as a main language  along with Spring Framework. During my internship I  improved myself on Java,SQL,Hibernate and SpringBoot. Thank’s my mentors for guiding me during this time. "
+
         },
         {
-            title: "Work 4",
-            date: "2021",
-            description: "Full-stack developer utilizing technologies such as ReactJS, Python and Firebase for web applications on a daily basis.  • Building stable, maintainable and testable codebases using ReactJS • Creating new features and functionalities on the web applications • Writing tests, performing bug fixes and code reviews."
+            title: "High School Mathematics Teacher",
+            date: "2016-2020",
+            description: "I am so grateful to have chance to be a teacher especially a math teacher in some part of my life. While teaching advance math to my students I learn a lot from them, also. Being a teacher give me a growth mindset and teach me to look the life other peoples perspective."
         }
     ],
 
@@ -126,6 +130,70 @@ export default {
             ]
         }
 
+    ],
+
+    projects: [
+        {
+            tag: "React",
+            image: Img,
+            title: "react Project 1",
+            caption:"a short description",
+            description: "This is my project description", 
+            links: [
+                { link: "https://www.google.com", icon: <YouTube /> },
+                { link: "https://www.google.com", icon: <GitHubIcon/> },
+                { link: "https://www.google.com", icon: <Language /> },
+            ]
+        },
+{
+            tag: "React",
+            image: Img,
+            title: "React Project 2",
+            caption:"a short description",
+            description: "This is my project description", 
+            links: [
+                { link: "https://www.google.com", icon: <YouTube /> },
+                { link: "https://www.google.com", icon: <GitHubIcon/> },
+                { link: "https://www.google.com", icon: <Language /> },
+            ]
+        },
+        {
+            tag: "React",
+            image: Img,
+            title: " React Project 3",
+            caption:"a short description",
+            description: "This is my project description", 
+            links: [
+                { link: "https://www.google.com", icon: <YouTube /> },
+                { link: "https://www.google.com", icon: <GitHubIcon/> },
+                { link: "https://www.google.com", icon: <Language /> },
+            ]
+        },
+
+        {
+            tag: "Pyton",
+            image: Img,
+            title: " Pyton Project 1",
+            caption:"a short description",
+            description: "This is my project description", 
+            links: [
+                { link: "https://www.google.com", icon: <YouTube /> },
+                { link: "https://www.google.com", icon: <GitHubIcon/> },
+                { link: "https://www.google.com", icon: <Language /> },
+            ]
+        },
+        {
+            tag: "Java Project1",
+            image: Img,
+            title: "Project 1",
+            caption:"a short description",
+            description: "This is my project description", 
+            links: [
+                { link: "https://www.google.com", icon: <YouTube /> },
+                { link: "https://www.google.com", icon: <GitHubIcon/> },
+                { link: "https://www.google.com", icon: <Language /> },
+            ]
+        }
     ]
     
     

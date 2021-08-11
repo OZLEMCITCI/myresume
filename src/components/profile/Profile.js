@@ -11,9 +11,12 @@ import TimelineContent from '@material-ui/lab/TimelineContent'
 import CustomButton from "../button/MyButton"
 import GetAppIcon from "@material-ui/icons/GetApp"
 
+import myresume from "../../utils/Test.pdf"
 
 
-const CustomTimeLineItem=({ title, text, link }) => (
+
+const CustomTimeLineItem = ({ title, text, link }) => (
+
    
   <TimelineItem>
     <CustomTimeLineSeparator />
@@ -28,16 +31,16 @@ const CustomTimeLineItem=({ title, text, link }) => (
 );
 
 const Profile = () => {
-
+    
 
     return (
         <div className="profile container_shadow">
             <div className="profile_name">
                 <Typography className="name">
-                  {resumeData.name}  
+                  {resumeData.Name}  
                 </Typography>
                 <Typography className="title">
-                  {resumeData.title} 
+                  {resumeData.Title} 
                 </Typography>
             </div>
 
@@ -47,9 +50,9 @@ const Profile = () => {
 
           <div className="profile_information">
           <MyTimeLine icon={<PersonOutlineOutlinedIcon />} >
-          <CustomTimeLineItem title="Name" text={resumeData.name} />
-          <CustomTimeLineItem title="Title" text={resumeData.title} />
-            <CustomTimeLineItem title="BirthDay" text={resumeData.birthday} />
+          <CustomTimeLineItem title="Name" text={resumeData.Name} />
+          <CustomTimeLineItem title="Title" text={resumeData.Title} />
+            <CustomTimeLineItem title="Email" text={resumeData.Email} />
             
             {Object.keys(resumeData.socials).map(key => (
               <CustomTimeLineItem title={key} text={resumeData.socials[key].text} link={resumeData.socials[key].link} />
@@ -57,7 +60,7 @@ const Profile = () => {
           </MyTimeLine>
           <br/>
           <div className="button_container">
-            <CustomButton text="Download CV" icon={<GetAppIcon />} />
+            <CustomButton text="Download CV" icon={<GetAppIcon />} href={myresume}/>
 
           </div>
           

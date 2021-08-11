@@ -22,6 +22,19 @@ import "./Header.css"
 import {Nav, Navbar} from "react-bootstrap"
 
 const Header = (props) => {
+
+  function showContactUs() {
+    const element = document.getElementById("contactUs");
+
+    if (element != null) {
+      element.scrollIntoView({ behavior: "smooth" })
+    } else {
+      alert("Please Go to Resume Page and Click Me Again")
+      
+    }
+  }
+
+
     const pathName=props?.location?.pathName
 
     return (
@@ -38,10 +51,11 @@ const Header = (props) => {
         <Navbar.Collapse>
           <Nav className="header_left">
             {/*ResumeLink */}
+            
             <Nav.Link href="/" className={pathName=="/" ? "header_link_active":"header_link"}>
              RESUME
             </Nav.Link>
-
+           
             {/*Portfolio Link */}
             <Nav.Link href="/portfolio" className={pathName=="/portfolio" ? "header_link_active":"header_link"}>
              PORTFOLIO
@@ -53,7 +67,7 @@ const Header = (props) => {
               <a href={resumeData.socials[key].link} target="_blank">{resumeData.socials[key].Icon }</a>
             ))}
             
-            <MyButton text={"Hire Me"} icon={<Telegram/> }/>
+            <MyButton text={"Hire Me"} icon={<Telegram />} onClickMe={showContactUs} />
           </div>
 
         
