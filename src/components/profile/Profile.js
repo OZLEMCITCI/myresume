@@ -23,7 +23,7 @@ const CustomTimeLineItem = ({ title, text, link }) => (
     <TimelineContent className="timeline_content">
       
       {link
-      ? (<Typography className="timelineItem_text"><span>{title}:</span>{" "}<a href={link} target="_blank" >{text}</a></Typography>)
+      ? (<Typography className="timelineItem_text"><span>{title}:</span>{" "}<a href={link} target="_blank"  rel="noreferrer">{text}</a></Typography>)
       :(<Typography className="timelineItem_text"><span>{title}:</span>{text}</Typography>)}
     </TimelineContent>
   </TimelineItem>
@@ -55,7 +55,7 @@ const Profile = () => {
             <CustomTimeLineItem title="Email" text={resumeData.Email} />
             
             {Object.keys(resumeData.socials).map(key => (
-              <CustomTimeLineItem title={key} text={resumeData.socials[key].text} link={resumeData.socials[key].link} />
+              <CustomTimeLineItem key={resumeData.socials[key].id} title={key} text={resumeData.socials[key].text} link={resumeData.socials[key].link} />
             ))}
           </MyTimeLine>
           <br/>

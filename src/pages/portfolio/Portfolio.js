@@ -25,7 +25,7 @@ const Portfolio = () => {
                 <Tabs value={tabValue} indicatorColor="white"
                 className="customTabs"
                 onChange={(event,newValue)=>setTabValue(newValue)}>
-                    <Tab label="All" value="All" className={tabValue == "All" ? "customTabs_item active" : "customTabs_item"} />
+                    <Tab label="All" value="All" className={tabValue ==="All" ? "customTabs_item active" : "customTabs_item"} />
                     {[...new Set(resumeData.projects.map((item) => item.tag))].map(tag => (
                         <Tab label={tag} value={tag} className={tabValue === {tag} ? "customTabs_item active" : "customTabs_item "} />
                     ))}
@@ -36,7 +36,7 @@ const Portfolio = () => {
                 <Grid container spacing={3} >
                     {resumeData.projects.map(project => (
 
-                        <>
+                        <div key={project.id}>
                             {tabValue === project.tag || tabValue === "All" ? (
                             <Grid item xs={12} sm={6} md={4}  >
                             <Grow in timeout={1000}>
@@ -55,7 +55,7 @@ const Portfolio = () => {
                        </Grid>
                             ):null}
                             
-                        </>
+                        </div>
                         
                     ))}
               </Grid>  
@@ -76,7 +76,7 @@ const Portfolio = () => {
                 
             <DialogActions className="projectDialog_actions">
                 {projectDialog?.links?.map((link) => (
-                    <a href={link.link} target="_blank" className="projectDialog_icon">
+                    <a  href={link.link} target="_blank" rel="noreferrer" className="projectDialog_icon">
                         {link.icon}
                 </a>
             ))}

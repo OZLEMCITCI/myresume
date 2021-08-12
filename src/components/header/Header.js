@@ -1,12 +1,6 @@
 import React from 'react'
 import {
   HomeRounded,
-  SchoolRounded,
-  WorkRounded,
-  Facebook,
-  Twitter,
-  Linkedin,
-  GitHup,
   Telegram
 } from "@material-ui/icons"
 
@@ -52,19 +46,19 @@ const Header = (props) => {
           <Nav className="header_left">
             {/*ResumeLink */}
             
-            <Nav.Link href="/" className={pathName=="/" ? "header_link_active":"header_link"}>
+            <Nav.Link href="/" className={pathName==="/" ? "header_link_active":"header_link"}>
              RESUME
             </Nav.Link>
            
             {/*Portfolio Link */}
-            <Nav.Link href="/portfolio" className={pathName=="/portfolio" ? "header_link_active":"header_link"}>
+            <Nav.Link href="/portfolio" className={pathName==="/portfolio" ? "header_link_active":"header_link"}>
              PORTFOLIO
             </Nav.Link>
           </Nav>
 
           <div className="header_right">
             {Object.keys(resumeData.socials).map(key => (
-              <a href={resumeData.socials[key].link} target="_blank">{resumeData.socials[key].Icon }</a>
+              <a key={resumeData.socials[key].id} href={resumeData.socials[key].link} target="_blank" rel="noreferrer">{resumeData.socials[key].Icon }</a>
             ))}
             
             <MyButton text={"Hire Me"} icon={<Telegram />} onClickMe={showContactUs} />
