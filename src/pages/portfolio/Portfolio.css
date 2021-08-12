@@ -19,7 +19,7 @@ outline-width: 0px !important;
 /*Cards*/
 .CustomCard{
 height: 100%;
-max-width: 350px;
+max-width: 250px;
 box-shadow: 0px 0px 48px 0px rgba(4,6,4, 0.08);
 border-radius:5px;
 overflow: hidden;

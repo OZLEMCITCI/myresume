@@ -34,9 +34,9 @@ const Portfolio = () => {
             {/*Projects*/}
             <Grid item xs={12}>
                 <Grid container spacing={3} >
-                    {resumeData.projects.map(project => (
+                    {resumeData.projects.map((project) => (
 
-                        <div key={project.id}>
+                        <>
                             {tabValue === project.tag || tabValue === "All" ? (
                             <Grid item xs={12} sm={6} md={4}  >
                             <Grow in timeout={1000}>
@@ -55,7 +55,7 @@ const Portfolio = () => {
                        </Grid>
                             ):null}
                             
-                        </div>
+                        </>
                         
                     ))}
               </Grid>  
