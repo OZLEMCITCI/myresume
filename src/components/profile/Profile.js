@@ -60,7 +60,7 @@ const Profile = () => {
           </MyTimeLine>
           <br/>
           <div className="button_container">
-            <CustomButton text="Download CV" icon={<GetAppIcon />} href={myresume}/>
+            <CustomButton text="Download Resume" icon={<GetAppIcon />} href={myresume}/>
 
           </div>
           

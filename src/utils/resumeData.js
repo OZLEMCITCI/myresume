@@ -24,21 +24,21 @@ export default {
         Linkedin: {
             id:"1",
             link: "https://www.linkedin.com/in/ozlem-citci-548061203/",
-            text: "O. Citci Linkedin",
+            text: "Click for LinkedIn",
             Icon: <Linkedin />
         },
 
         Githup: {
             id:"2",
             link: "https://github.com/OZLEMCITCI",
-            text: "OZLEMCITCI",
+            text: "Click for GitHub",
             Icon: <GitHubIcon />
         },
         
         
     },
     
-    about: "I am a hands-on full stack developer with experience in designing and developing websites and applications using a varied range of technologies and programming languages. I have proven ability to build interactive and user friendly websites and applications. I am personally known to be a very hard working, passionate, adaptable and skilled individual, always striving to get better and achieve.",
+    about: "I am Software Engineer who has been involved in UI and Backend Development using Java and JS programming languages along with React, HTML, CSS, Bootstrap, Spring boot, Hibernate, SQL, JDBC, MongoDB, RestApi and Postman.We did use Jira and Jira Xray as project management tool.I did use Git and GitHub as a version control tool and we do CI / CD for Deployment with Jenkins.I am currently working in an Agile environment where we have grooming sessions, sprint planning sessions, Dailys stant-Ups, Sprint review and Retro meetings.",
     
     experiences: [
         {
@@ -51,7 +51,7 @@ export default {
         {   id:"2",
             title: "Software Engineer Intern at GMIBank ",
             date: "September, 2020 - January,2021 ",
-            description: " As a Software intern I mainly worked back-end of the project with an assigned mentor. We used Java as a main language  along with Spring Framework. During my internship I  improved myself on Java,SQL,Hibernate and SpringBoot. Thank’s my mentors for guiding me during this time. "
+            description: " As a Software intern I mainly worked back-end part of the project with an assigned mentor. We used Java as a main language  along with Spring Framework. During my internship I  improved myself on Java,SQL,Hibernate and SpringBoot. Thank’s my mentors for guiding me during this time. "
 
         },
         {   id:"3",

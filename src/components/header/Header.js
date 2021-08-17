@@ -61,7 +61,7 @@ const Header = (props) => {
               <a key={resumeData.socials[key].id} href={resumeData.socials[key].link} target="_blank" rel="noreferrer">{resumeData.socials[key].Icon }</a>
             ))}
             
-            <MyButton text={"Hire Me"} icon={<Telegram />} onClickMe={showContactUs} />
+            <MyButton text={"Contact me"} icon={<Telegram />} onClickMe={showContactUs} />
           </div>
 
         
