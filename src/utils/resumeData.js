@@ -38,7 +38,7 @@ export default {
         
     },
     
-    about: "I am Software Engineer who has been involved in UI and Backend Development using Java and JS programming languages along with React, HTML, CSS, Bootstrap, Spring boot, Hibernate, SQL, JDBC, MongoDB, RestApi and Postman.We did use Jira and Jira Xray as project management tool.I did use Git and GitHub as a version control tool and we do CI / CD for Deployment with Jenkins.I am currently working in an Agile environment where we have grooming sessions, sprint planning sessions, Dailys stant-Ups, Sprint review and Retro meetings.",
+    about: "I have been a math lover since I was a middle school student. I could not even think anything that I would enjoy more than a challenging math problem. Thanks the cutting edge technology that brings software in our life. I've become more passionate about software development than anything else.Nothing feels better than fixing a bug after reading tons of forums and watching many videos about it .\nLet me to explain what is my experiences in Software Development .\n-I have experience building user interface with ReactJS along with React-router and Material-UI \n-Hands on experience in using ReactJS with ES6 features to develop reusable components,\n-Experience in responsive web design using CSS3 media queries and libraries such as Bootstrap.\n-Experience in Swift platform where make secure system with national and international transactions.\n-Experience in MVC design pattern by using SpringBoot and Spring MVC.\n-Experience in using Java to create RestFull Api in Spring Environment Experience in version control tools Git GitHub, and package manager NPM .\n-Experience in using JIRA and following agile development process, and deep understanding in Software Solid understanding of Object-Oriented Programming (OOP) and Functional Programming (FP) \n-.Development Life Cycle (SDLC) including requirements analysis, design, testing implementation, and maintenance.\n-Excellent interpersonal abilities, communication skills, time management and team skills.",
     
     experiences: [
         {
@@ -142,23 +142,13 @@ export default {
     ],
 
     projects: [
-        {   id:"1",
-            tag: "React/JS",
-            image: FlagImg,
-            title: "Learn About Flags ",
-            caption:"Simple react project for fetching data from an Api",
-            description: "While practicing useEffect with react's fetch method, It was nice to practice Css grid layout. It converts your gage 2D so it is very easy to manupilate your componentes. Using an Api to get data is very easy for me after my lovely first flag project", 
-            links: [
-                { link: "https://github.com/OZLEMCITCI/CountryFlags", icon: <GitHubIcon/> },
-                { link: "https://searchforflag.netlify.app", icon: <Language /> },
-            ]
-        },
+        
 {           id:"2",
             tag: "React/JS",
             image: WeatherAppImg,
             title: "Weather App With React",
             caption:"Check the Weather ",
-            description: "I practice hooks this app and how to use external Api to fetch data. It still has some bugs but I will fix them soon", 
+            description: "I used bootstrap and formik and yup libraries for this project. It was so nice to practice UseState and UseEffect hooks and use external Api to fetch data. It still has some bugs but I will fix them soon", 
             links: [
                 { link: "https://github.com/OZLEMCITCI/Weather_App/tree/master/src", icon: <GitHubIcon/> },
                 { link: "https://ozlemsweatherapp.netlify.app", icon: <Language /> },
