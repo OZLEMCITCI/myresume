@@ -156,7 +156,7 @@ export default {
             image: Websitesi,
             title: " BootStrap Practice",
             caption:"My first attempt to use bootstapt with react-router-dom",
-            description: "I am proud of to put my first website project to here. I was practicing bootstrap and react-router-dom libraries. I spend hours to do this basic website from scratch . I am now able to create my own blog and work in a company as a FullStack Software Developer", 
+            description: "I am proud of to display my first website project in here. I was practicing Bootstrap and react-router-dom libraries. I spent hours to complete this basic website from scratch . I am now able to create my own blog and work in a company as a FullStack Software Developer", 
             links: [
                 
                 { link: "https://github.com/OZLEMCITCI/First-Website-with-BootStrap", icon: <GitHubIcon/> },
@@ -169,7 +169,7 @@ export default {
             image: CRUD,
             title: " CRUD OPERATIONS",
             caption:"Basid CRUD operations for with Spring-boot",
-            description:"This project have back-end and frond-end development and it is a good practice for CRUD operations \nFRONT-END:It created by react. I use Formik and yup library to create and validate form informations.For styling I mainly use Bootstrap and Metarial-ui.\nBACK-END Spring-boot framework is used for backend and Oracle SQL is the database. With @crossorigin Annotation on the controller class we connect it with front-end.", 
+            description:"This project have back-end and frond-end development. it is a good practice for CRUD operations. Front-End is created with ReactJS. I useD Formik and yup library to create and validate form informations.For styling I mainly use Bootstrap and Metarial-ui. Spring-boot framework is used for backend and Oracle SQL is the database. With @crossorigin Annotation on the controller class I connected it with Front-End of the project.", 
             links: [
                 
                 { link: "https://github.com/OZLEMCITCI/CRUD-Operations", icon: <GitHubIcon/> }
@@ -181,7 +181,7 @@ export default {
             image: BANK,
             title: "Bank Project",
             caption:"Comprehensive Bank Project",
-            description: "This bank project is my personel project .ReactJs and JS is being used for UI part. SpringBoot is the framework of the back-end development.Main purpose of this project is practicing Rest API with Spring Security. I am currently developing it on my free time to improve my coding skills", 
+            description: "This bank project is my personel project .ReactJs and JS is being used for UI part. SpringBoot is the framework of the back-end development.Main purpose of this project is practicing Rest API and Spring Security. I am currently developing it on my free time to improve my coding skills.", 
             links: [
                 
                 { link: "https://github.com/OZLEMCITCI/Mybank", icon: <GitHubIcon/> }
