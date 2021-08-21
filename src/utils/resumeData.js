@@ -13,7 +13,7 @@ import AccountTreeIcon from '@material-ui/icons/AccountTree';
 
 export default {
     Name: "Ozlem Citci",
-    Title: "Software Engineer",
+    Title: "FullStack Software Developer",
     birthday: "28th December, 1988",
     Email: "ozlmctc@gmail.com",
     
