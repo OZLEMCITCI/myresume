@@ -12,7 +12,7 @@ import AccountTreeIcon from '@material-ui/icons/AccountTree';
 
 
 export default {
-    Name: "Jasmine O. Citci",
+    Name: "Ozlem Citci",
     Title: "Software Engineer",
     birthday: "28th December, 1988",
     Email: "ozlmctc@gmail.com",
@@ -41,17 +41,12 @@ export default {
     about: "I have been a math lover since I was a middle school student. I could not even think anything that I would enjoy more than a challenging math problem. Thanks the cutting edge technology that brings software in our life. I've become more passionate about software development than anything else.Nothing feels better than fixing a bug after reading tons of forums and watching many videos about it .\nLet me to explain what is my experiences in Software Development .\n-I have experience building user interface with ReactJS along with React-router and Material-UI \n-Hands on experience in using ReactJS with ES6 features to develop reusable components,\n-Experience in responsive web design using CSS3 media queries and libraries such as Bootstrap.\n-Experience in Swift platform where make secure system with national and international transactions.\n-Experience in MVC design pattern by using SpringBoot and Spring MVC.\n-Experience in using Java to create RestFull Api in Spring Environment Experience in version control tools Git GitHub, and package manager NPM .\n-Experience in using JIRA and following agile development process, and deep understanding in Software Solid understanding of Object-Oriented Programming (OOP) and Functional Programming (FP) \n-.Development Life Cycle (SDLC) including requirements analysis, design, testing implementation, and maintenance.\n-Excellent interpersonal abilities, communication skills, time management and team skills.",
     
     experiences: [
-        {
-            id:"1",
-            title: "Entry Level Software Developer Engineer at GMIBank",
-            date: "January,2021 ~ Present",
-            description: "Currently working as a Software Engineer utilizing technologies such us JavaScript ReactJS, Java, Spring framework,Restful Api for swift platform web application on a daily basis. Creating new features and functionalities on the web application.Building stable, main-table and testable codebases.Writing tests, performing bug fixes and code reviews."
-        },
+        
 
-        {   id:"2",
-            title: "Software Engineer Intern at GMIBank ",
-            date: "September, 2020 - January,2021 ",
-            description: " As a Software intern I mainly worked back-end part of the project with an assigned mentor. We used Java as a main language  along with Spring Framework. During my internship I  improved myself on Java,SQL,Hibernate and SpringBoot. Thank’s my mentors for guiding me during this time. "
+        {   id:"1",
+            title: "FullStack Software Developer ",
+            date: "September,2020 - Present ",
+            description: " Currently working as a Software Engineer utilizing technologies such as JavaScript/ReactJS and Java/Spring framework/RestApi in Swift platform where we did work on national and international transactions to make payments on a secure system on a daily basis. Creating new features and functionalities on the web applications. Building stable, maintainable and testable codebases. Writing tests, performing bug fixes and code reviews. "
 
         },
         {   id:"3",
@@ -115,6 +110,7 @@ export default {
                 "JavaEE",
                 "Spring Framework",
                 "Hibernate",
+                ,"JDBC",
                 "Restful Api",
                 "Micro-Services With Spring Boot",
             ]
@@ -124,7 +120,8 @@ export default {
             description: [
                 "Oracle SQL",
                 "MySQL",
-                "MongoDB"
+                "MongoDB",
+                "PostgreSQL"
                 
             ]
         },
@@ -134,7 +131,7 @@ export default {
                 "Git",
                 "GitHub",
                 "SCRUM/Agile",
-                "Jira"
+                "Jira/Jira Xray"
                 
             ]
         }
@@ -148,7 +145,7 @@ export default {
             image: WeatherAppImg,
             title: "Weather App With React",
             caption:"Check the Weather ",
-            description: "I used bootstrap and formik and yup libraries for this project. It was so nice to practice UseState and UseEffect hooks and use external Api to fetch data. It still has some bugs but I will fix them soon", 
+            description: "This is my personal project to practice fetching data from an external API and using BootStrap and some other external libraries to build the UI part with ReactJs. ", 
             links: [
                 { link: "https://github.com/OZLEMCITCI/Weather_App/tree/master/src", icon: <GitHubIcon/> },
                 { link: "https://ozlemsweatherapp.netlify.app", icon: <Language /> },
@@ -159,7 +156,7 @@ export default {
             image: Websitesi,
             title: " BootStrap Practice",
             caption:"My first attempt to use bootstapt with react-router-dom",
-            description: "I am proud of to put my first website project to here. I was practicing bootstrap and react-router-dom libraries. I spend hours to do this basic website espescialy form part was so hard. With hardworking I am now able to make my own blog.  ", 
+            description: "I am proud of to put my first website project to here. I was practicing bootstrap and react-router-dom libraries. I spend hours to do this basic website from scratch . I am now able to create my own blog and work in a company as a FullStack Software Developer", 
             links: [
                 
                 { link: "https://github.com/OZLEMCITCI/First-Website-with-BootStrap", icon: <GitHubIcon/> },
@@ -172,7 +169,7 @@ export default {
             image: CRUD,
             title: " CRUD OPERATIONS",
             caption:"Basid CRUD operations for with Spring-boot",
-            description:"This project have back-end and frond-end development and it is a good practice for CRUD operations FRONT-END:It created by react. I use Formik library for create for and yup library to validate form informations.For styling I use bootstrap library.BACK-END Spring-boot framework is used for creation and Oracle SQL is the database. With @crossorigin Annotation on the controller class we connect it with front-end.", 
+            description:"This project have back-end and frond-end development and it is a good practice for CRUD operations \nFRONT-END:It created by react. I use Formik and yup library to create and validate form informations.For styling I mainly use Bootstrap and Metarial-ui.\nBACK-END Spring-boot framework is used for backend and Oracle SQL is the database. With @crossorigin Annotation on the controller class we connect it with front-end.", 
             links: [
                 
                 { link: "https://github.com/OZLEMCITCI/CRUD-Operations", icon: <GitHubIcon/> }
@@ -184,7 +181,7 @@ export default {
             image: BANK,
             title: "Bank Project",
             caption:"Comprehensive Bank Project",
-            description: "This bank project is my personel project  currently.ReactJs and JS is being used for front-end and SpringBoot is the framework of the back-end development.Main purpose of this project is practicing role based authentication and authorization with Rest API.  I am currently developing it on my free time to improve my coding skills", 
+            description: "This bank project is my personel project .ReactJs and JS is being used for UI part. SpringBoot is the framework of the back-end development.Main purpose of this project is practicing Rest API with Spring Security. I am currently developing it on my free time to improve my coding skills", 
             links: [
                 
                 { link: "https://github.com/OZLEMCITCI/Mybank", icon: <GitHubIcon/> }
