@@ -11,7 +11,7 @@ import TimelineContent from '@material-ui/lab/TimelineContent'
 import CustomButton from "../button/MyButton"
 import GetAppIcon from "@material-ui/icons/GetApp"
 
-import myresume from "../../utils/Test.pdf"
+import myresume from "../../utils/OzlemCitciResume.pdf"
 
 
 
