@@ -41,11 +41,18 @@ export default {
     about: "I have been a math lover since I was a middle school student. I could not even think anything that I would enjoy more than a challenging math problem. Thanks the cutting edge technology that brings software in our life. I've become more passionate about software development than anything else.Nothing feels better than fixing a bug after trying really hard .\n Here are some of my skills; \n-I have experience building user interface with ReactJS along with React-router and Material-UI \n-Hands on experience in using ReactJS with ES6 features to develop reusable components,\n-Experience in responsive web design using CSS3 media queries and libraries such as Bootstrap.\n-Experience in Swift platform where make secure system with national and international transactions.\n-Experience in MVC design pattern by using SpringBoot and Spring MVC.\n-Experience in using Java to create RestFull Api in Spring Environment Experience in version control tools Git GitHub, and package manager NPM .\n-Experience in using JIRA and following agile development process, and deep understanding in Software Solid understanding of Object-Oriented Programming (OOP) and Functional Programming (FP) \n-.Development Life Cycle (SDLC) including requirements analysis, design, testing implementation, and maintenance.\n-Excellent interpersonal abilities, communication skills, time management and team skills.",
     
     experiences: [
+
+        { id:"1",
+        title: "Software Engineer at USAA ",
+        date: "October,2021 - Present ",
+        description: "Involved in designing, implementing, writing unit and integration tests for a number features end-to-end.Take responsibility to integrate Spring webflux to backend projects to make concurrent calls. Stood as prod release engineer for many of the projects in our team. Created the kibana dashboard for back-end api logs, and took part in the        Analysis & Design stage for new back-end APIs. Mentoring new hired engineers."
+
+        },
         
 
-        {   id:"1",
-            title: "FullStack Software Developer ",
-            date: "September,2020 - Present ",
+        {   id:"2",
+            title: "FullStack Software Developer at RainPark Solutions ",
+            date: "September,2020 - October 2021 ",
             description: "Currently working as a FullStack Software Developer  utilizing technologies in Swift platform where we worked on national and international transactions to make payments on a secure system. I developed the user interface with ReactJS along with React-router, Material-UI and  reusable components with ES6 features. I used CSS3 and BootStrap for responsiveness of the web application in different platforms. Many external libraries such as Formik ,Yup ,ReactStrap, react-toastify help me to complete the UI part of the project.I mainly used SpringBoot and Spring MVC to create secure,authenticated and authorized Restful APIs. While using many Maven Dependencies to write clean codes, I also use advanced algorithms to solve complex problems with Java. I build stable, maintainable and testable codebases as well as writing tests, performing bug fixes and code reviews."
 
         },
