@@ -104,6 +104,7 @@ export default {
             title: "FRONT-END",
             description: [
                 "ReactJS",
+                "Redux",
                 "JavaScript",
                 "HTML5",
                 "CSS3",
@@ -115,11 +116,11 @@ export default {
             description: [
                 "Java",
                 "JavaEE",
-                "Spring Framework",
+                "SpringBoot",
+                "Spring-Webflux",
                 "Hibernate",
-                ,"JDBC",
+                "JDBC",
                 "Restful Api",
-                "Micro-Services With Spring Boot",
             ]
         },
         {   id:"3",
@@ -132,6 +133,15 @@ export default {
                 
             ]
         },
+        {   id:"5",
+            title: "DEPLOYMENT",
+            description: [
+                "CI/CD",
+                "Openshift4",
+                "AWS",
+                "Terraform"
+                ]
+        },
         {   id:"4",
             title: "SOURCE CONTROL",
             description: [
@@ -139,9 +149,12 @@ export default {
                 "GitHub",
                 "SCRUM/Agile",
                 "Jira/Jira Xray"
+                ,"Gradle"
+                ,"Maven"
                 
             ]
         }
+
 
     ],
 
