@@ -66,14 +66,14 @@ export default {
     educations: [
         {   id:"1",
             title: "M.S. in Software Engineering",
-            date: "2021",
-            description: "I am so excited to start my Masters with Texas Tech. After taking the leveling courses, I will be able improve my skills with Texas Tech family. "
+            date: "2022-2024",
+            description: "I took Advance Software Architecture, Advance algorithms, and Advance Computer Networking Courses. I will continue to take more courses."
         },
 
         {   id:"2",
             title: "Non-degree admission for Leveling to Computer Science",
             date: "North American Univeristy,2021",
-            description: "I am currently taking Data Structure, Software Engineering and Algorithms to level my current B.S. degree to Computer Science"
+            description: "I took Data Structure, Software Engineering and Algorithms courses to level my current B.S. degree to Computer Science"
         },
         {   id:"3",
             title: "B.S. in Mathematics Education",
